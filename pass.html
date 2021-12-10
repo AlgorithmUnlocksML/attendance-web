@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Password Page</title>
+<!--<script type="text/javascript" src="password.js"></script>-->
+</head>
+<body onload="passwordCheck()">
+<h1>How'd you know the password?</h1>
+<script>
+    function passwordCheck(){
+var password = prompt("Please enter the password.");
+if (password.value=="ilikepie"){
+window.alert("Password correct!");}
+else{
+while(password.value !="ilikepie"){
+window.alert(password);}
+}}
+</script>
+</body>
+</html>
